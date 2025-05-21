@@ -111,7 +111,7 @@ The calculation follows these steps:
 
 If you prefer to run the application without Docker:
 
-1. Ensure Python 3.8+ is installed
+1. Ensure Python 3.9 is installed
 2. Clone this repository
 3. Install dependencies:
    ```bash
