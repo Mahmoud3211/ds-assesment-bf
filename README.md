@@ -197,6 +197,13 @@ The following enhancements are planned for future iterations of this project:
   - Deep learning approaches (LSTM, Transformer networks)
   - Ensemble methods for improved accuracy
 
+### LLM-Powered Assistant
+- Integrate Large Language Models to provide an AI inventory expert:
+  - Natural language interface for querying inventory status
+  - Intelligent recommendations for inventory optimization
+  - Automated insights and explanations of DFC metrics
+  - Conversational interface for non-technical users to interact with inventory data
+
 ### Comparative Analysis
 - Develop tools to compare results between different approaches:
   - Accuracy metrics (MAPE, RMSE, MAE)
