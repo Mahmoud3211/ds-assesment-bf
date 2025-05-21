@@ -176,6 +176,34 @@ The application's behavior can be configured to be as generic as possible by mod
 - Default date ranges
 - Number of products for synthetic data
 
+## Future Improvements
+
+The following enhancements are planned for future iterations of this project:
+
+### Data Integration
+- Make uploading datasets more generic by supporting additional data sources:
+  - SQL databases (MySQL, PostgreSQL, SQL Server)
+  - NoSQL databases (MongoDB, Cassandra)
+
+### Advanced Forecasting
+- Implement statistical forecasting algorithms:
+  - ARIMA (AutoRegressive Integrated Moving Average)
+  - Prophet (Facebook's time series forecasting tool)
+  - Exponential Smoothing methods
+
+### Machine Learning Integration
+- Incorporate machine learning models for demand prediction:
+  - Regression models (Random Forest, XGBoost)
+  - Deep learning approaches (LSTM, Transformer networks)
+  - Ensemble methods for improved accuracy
+
+### Comparative Analysis
+- Develop tools to compare results between different approaches:
+  - Accuracy metrics (MAPE, RMSE, MAE)
+  - Visualization of prediction differences
+  - Performance benchmarking
+  - Sensitivity analysis for different parameters
+
 ## Author
 
 Mahmoud Nada
