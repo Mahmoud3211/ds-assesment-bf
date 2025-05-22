@@ -68,6 +68,60 @@ docker run -d -p [your_port]:8501 --name dfc-dashboard my-username/dfc-dashboard
     └── data/              # Data directory (created at runtime)
 ```
 
+## Dashboard User Guide
+
+This section provides a quick guide to using the Days Forward Coverage Dashboard.
+
+### Getting Started
+
+1. **Launch the Dashboard**: After starting the application, you'll see the main dashboard interface with a sidebar on the left and the main content area.
+
+2. **Data Source Selection**: In the sidebar, you'll find three options for loading data:
+   - **Upload Data**: Upload your own CSV files for forecast and inventory data
+   - **Generate Data**: Create synthetic datasets with configurable parameters
+   - **Use Existing Data**: Load previously saved datasets from the data directory
+
+3. **Data Requirements**: 
+   - For uploading, ensure your CSV files match the expected format (see Data Format section)
+   - When generating data, you can specify the number of products and date range
+
+### Dashboard Navigation
+
+#### Sidebar Controls
+
+- **Data Source**: Select how to load data (upload, generate, or use existing)
+- **Calculate Coverage**: Button appears when forecast and inventory data are loaded but DFC hasn't been calculated
+- **Reset Dashboard**: Clear all loaded data and start fresh
+- **Filters**: Filter products by ID when DFC data is available
+
+#### Main Dashboard Sections
+
+1. **Data Exploration**:
+   - View visualizations of your forecast and inventory data
+   - Explore patterns and distributions before calculating DFC
+
+2. **Days Forward Coverage Analysis**:
+   - Overview: See distribution of DFC across all products and summary statistics
+   - Top/Bottom Products: Identify products with highest and lowest coverage
+   - Critical Products: View products with less than 7 days of coverage (requiring attention)
+
+### Using the Dashboard
+
+#### Workflow
+
+1. **Load Data**: Either upload your files, generate synthetic data, or use existing files
+2. **Explore Data**: Review the forecast and inventory visualizations to understand your data
+3. **Calculate Coverage**: Click the "Calculate Coverage" button in the sidebar
+4. **Analyze Results**: Examine the DFC metrics and identify products needing attention
+5. **Filter Products**: Use the sidebar filters to focus on specific products
+
+#### Tips
+
+- **Data Generation**: If you don't have your own data, use the "Generate Data" option to create realistic test datasets
+- **Critical Products**: Pay special attention to products with less than 7 days of coverage (highlighted in the dashboard)
+- **Reset**: If you want to start over or load different data, use the "Reset Dashboard" button
+- **Hover Interactions**: Hover over charts to see detailed information about specific data points
+
 ## Data Format
 
 The application works with the following data formats:
